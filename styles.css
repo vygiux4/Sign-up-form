@@ -77,12 +77,14 @@ background-color: #596D48;
 
 .rigtpaneltop {
     display: flex;
+    position: relative;
     height:300px;
     width:870px;
     
 }
 
 .rigthplanelmid{
+  
     display: flex;
     height: 280px;
     width: 870px;
@@ -101,5 +103,14 @@ background-color: #596D48;
 }
 
 .rightpaneltoptext {
+      position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:600;
+    height: 300px;
+    width: 620px;
+    top: 150px;
+    left: 50px;
+    font-size: 20px;
     
+   
 }
