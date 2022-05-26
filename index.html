@@ -21,12 +21,63 @@
                 Sign up<i> now</i> to get started. <p>You <i>know</i> you want to.</p>
                 </div>
             </div>
-            <div class="rigthplanelmid"></div>
-            <div class="rigthplanelbot"></div>
+            <div class="rigthplanelmid">
+               <div class="rightpanelmidtext">Let's do this!</div>
+               <div class="formscontainer">
+                   <div class="firstform">
+                    <form>
+                        <ul>
+                            <li>
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" name="firstName" id="firstName" >
+                            </li>
+                            <li>
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email">
+                            </li>
+                            <li>
+                                <label for="password">PASSWORD</label>
+                                <input class="error" type="password" name="pasword" id="password" onkeyup="check()" >
+                            </li>
+                        </ul>
+                    </form>
+                   </div>
+                   <div class="secondform">
+                       <form>
+                           <ul>
+                               <li>
+                                  <label for="lastName">LAST NAME</label>
+                                  <input type="text" name="lastName" id="lastName">
+                               </li>
+                               <li>
+                                   <label for="phoneNum">PHONE NUMBER</label>
+                                   <input type="number" name="phoneNum" id="phoneNum">
+                               </li>
+                               <li>
+                                   <label for="passwordconfirm">CONFIRM PASSWORD</label>
+                                   <input  class='error' type="password" name="passwordconfirm" id="passwordconfirm" onkeyup="check()">
+                               </li>
+                           </ul>
+                       </form>
+                   </div>
+               </div>
+               <div class="wrongpass" id="wrongpass">*Passwords do not match</div>
+               <div id="rightpass">*Passwords match</div>
+              
             
         </div>
+        <div class="rigthplanelbot">
+            <div class="buttoncontainer">
+                <button class="createaccount">Create Account</button>
+            </div>
+            <div class="textocntainer">
+                <div class="belowbuttontext">Already have an account?&nbsp; <div id="login"> Log in</div></div>
+            </div>
+        </div>
+            
         
         
     </div>
+   <script src="java.js"></script>
 </body>
 </html>
